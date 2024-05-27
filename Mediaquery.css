@@ -1,0 +1,30 @@
+@media only screen and (max-width: 430px) {
+ .business-growth{
+        font-size: 20px;
+        max-width: 100%;
+        text-align: center;
+
+    }
+    .Unique-Strategies{
+        margin-top: 50px;
+    }
+    .Marketing-Servi , .Digital-heading {
+     max-width: 100% ;
+     font-size: 14px;
+    }
+.Cost-UI{
+    display: block;
+    max-width: 100%;
+}
+    .marking-images{
+       width: 30px;
+    }
+}
+@media only screen and (min-width: 576px)  {
+     h1 .business-growth{
+        font-size: 20px;
+
+        text-align: center;
+
+    }
+}

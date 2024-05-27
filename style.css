@@ -1,0 +1,1025 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo {
+
+  font-size: 24px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  font-family: "Poppins";
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+
+
+
+
+
+}
+
+.navbar-nav li {
+  margin-right: 28px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+a {
+
+  text-decoration: none;
+
+
+
+
+  color: #111111;
+  text-decoration: none;
+}
+
+
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.container-fluid2 {
+  background: linear-gradient(180deg, rgba(119, 150, 230, 0.25) 0%, rgba(158, 123, 215, 0.25) 100%);
+
+}
+
+
+.Btn1 a {
+  text-decoration: none;
+  color: #111111;
+}
+
+.Btn1 {
+  background-color: #F8E643;
+  width: 140px;
+  height: 40px;
+  border: 0cap;
+  border-radius: 12px;
+  font-size: 20px;
+  font-family: "Poppins";
+  letter-spacing: 2px;
+  color: #111111;
+  cursor: pointer;
+
+  font-weight: 400;
+  animation: keyword;
+
+
+}
+
+.Btn1 {
+  background-image: linear-gradient(to right, #F8E643, );
+}
+
+.Btn1:before {
+  content: "";
+  position: absolute;
+  height: 38px;
+  width: 30px;
+  background: #f3f3f3;
+  box-shadow: 0 0 10px #ffff;
+  filter: blur(1px);
+  opacity: 0.2;
+  left: 1350px;
+  animation: keyword;
+  top: 23px;
+  animation-delay: inherit;
+  transition: 0.9s;
+  transform: rotate(-50deg)translateX(5px)
+}
+
+.Btn1:hover:before {
+  transform: translateX(130px)
+}
+
+.con2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  /* Optionally set the height to center vertically */
+}
+.con2r {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  /* Optionally set the height to center vertically */
+}
+
+.centered-word {
+  text-align: center;
+  padding-top: 92px ;
+}
+.centered-wordbanner{
+  text-align: center;
+  padding-top: 92px ;
+}
+
+.Aboutus {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 49.6px;
+  text-align: center;
+  color: #FFFFFF;
+text-shadow: 1px 2px 2px   black;
+
+
+}
+
+.handing {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  
+
+}
+
+
+.vision {
+  font-family: "Poppins";
+  font-size: 38px;
+  font-weight: 500;
+
+
+
+}
+
+
+.gruopworld {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
+  color: #555555;
+  line-height: 28px;
+  margin-top: 30px;
+
+
+}
+
+.aboutusimage {
+  width: 100%;
+  height: auto;
+}
+
+.pagra {
+  padding: 0px 10px;
+}
+
+.dobltbox {
+  padding: 80px 0px 0px 0px;
+}
+
+.OurValue {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.box {
+  width: 282px;
+  height: auto;
+  border: 0.89px solid #111111;
+  background: #FDFDFD;
+  border-radius: 17.71px;
+  margin: 0 auto;
+  padding-bottom: 16px;
+
+}
+
+.boxcontent {
+  text-align: center;
+  padding: 20px;
+}
+
+.innova {
+  padding: 4px;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26.4px;
+
+
+}
+
+.box:hover {
+  background-color: #111111;
+  color: #f1f1f1;
+  /* Change background color on hover */
+}
+
+.card {
+
+  margin-top: 100px;
+  text-align: center;
+
+
+}
+
+.card {
+
+  width: auto;
+  border-radius: 20px;
+
+
+
+}
+
+.digitalmar {
+  text-align: center;
+}
+
+.card {
+  /* Adjusted to account for the gap on all sides */
+  text-align: center;
+}
+
+.Booking {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+
+}
+
+.card {
+  padding: 20px;
+}
+
+.card img {
+
+  height: 80px;
+  text-align: center;
+}
+
+.FacebooK {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+}
+
+.Lore {
+  width: 116px;
+  height: 40px;
+  text-align: center;
+
+  border-radius: 12px;
+  border: 0px;
+
+
+}
+
+.custom-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.colorbox {
+   /* width: 356px;  */
+  height: 92px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  margin-top: 20px;
+
+  background: rgba(229, 229, 229, 1);
+  font-size: 14px;
+
+}
+
+.touch1 {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  width: 160px;
+  background:
+    linear-gradient(to bottom,
+      transparent 50%,
+      #F8E643)
+}
+
+.Adressbox {
+  /* width: 356px; */
+  height: 130px;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  margin-top: 20px;
+  /* opacity: 0px; */
+  background: rgba(229, 229, 229, 1);
+  font-size: 14px;
+  /* padding-left: 10px; */
+}
+
+.content2 {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: justify;
+  width: 370px;
+  letter-spacing: 1px;
+  padding-bottom: 40px;
+}
+
+.Questions {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: start;
+
+}
+
+.head3 {
+  text-align: start;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.we {
+  width: 300px;
+}
+
+.form-control {
+
+  height: 48px;
+  /* padding: 14px 19px 14px 19px; */
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  margin-top: 40px;
+
+}
+
+.phone-input {
+  width: calc(100% - 60px);
+
+}
+
+.btn10 {
+  width: 610px;
+  height: 48px;
+  padding: 14px 19px 14px 19px;
+  gap: 10px;
+  border-radius: 4px 4px 4px 4px;
+  opacity: 0px;
+  margin-top: 40px;
+  border: 0cap;
+  background-color: #111111;
+  color: #F8E643;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 500;
+
+  padding: 7px;
+
+}
+
+.card:hover .Booking,
+.card:hover .FacebooK {
+  color: #f1f1f1;
+}
+
+
+.card:hover .Lore {
+  color: #111111;
+  background-color: #F8E643;
+
+}
+
+.userdata {
+  margin-top: 80px;
+
+}
+.main10 {
+
+
+  background-color: #111111;
+  overflow-x: hidden;
+}
+
+.herobanner-grad {
+    background-image: url(Images/Destop12.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+::selection {
+    background: yellow;
+    color: black;
+}
+.Digital-Banner{
+ background-image: url(Images/Home\ \ Services\ \ Digital\ Marketing.svg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.Digital-heading{
+  font-family: "Montserrat";
+font-size: 40px;
+font-weight: 600;
+
+text-align: center;
+
+}
+.Marketing-heading{
+  font-family: "Montserrat";
+font-size: 40px;
+font-weight: 600;
+
+text-align: center;
+
+}
+.Business{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.heterofagt{
+  font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+line-height: 40px;
+text-align: justify;
+
+}
+
+.Cost-Effective{
+  font-family: "Poppins";
+font-size: 24px;
+font-weight: 400;
+line-height: 48px;
+text-align: justify;
+background-image: linear-gradient(to right, #FFFDEA, #FFFFFF);
+
+
+}
+.orumarking{
+padding-top: 80px;
+
+padding-bottom: 40px;
+
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+ padding: 10px;
+
+  display: none;
+
+  overflow: hidden;
+    border-radius: 0px 0px 8px 8px;
+}
+.plus {
+  float: right;
+}
+.accordion{
+
+
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 0px 0px 8px 8px;
+  text-align:justify;
+
+  border-radius: 8px 8px 8px 8px;
+  background: #FFFDEA;
+
+  
+}
+.Services-start{
+  background: #FFFDEA;
+
+}
+
+.Find-Your-Marketing{
+  margin-top: 40px;
+  padding: 7px;
+  border: 0px;
+  border-radius: 8px;
+  background-color: #111111;
+  color: #F8E643;
+}
+.business-growth{
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  margin: auto;
+ width: 1000px;
+margin-top: 80px;
+  background: linear-gradient(to bottom,
+  transparent 50%,
+  #F8E643)
+  
+  
+}
+.Work-Process3{
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  
+
+}
+.Unique-Strategies{
+  box-shadow: 2px 2px 8px 0px #00000040;
+  padding: 30px;
+  border-radius: 8px;
+}  
+.other-services{
+  padding-top: 100px;
+}
+.Service-growth{
+  background-color: #FFFDEA;
+}
+.Expertise-Marketing{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.Work-Process{
+  background: #555555;
+
+}
+.Research-circle {
+  padding-bottom: 80px;
+}
+.Expertise-Marketing{
+  color: #FDFDFD;
+}
+.career-section{
+  border: 1px solid #C0C0C0;
+ margin-bottom: 50px;
+ border-radius: 8px;
+ margin-bottom: 40px; 
+}
+.career-section:hover{
+ 
+  border-left: 7px solid; /* Default border color */
+  transition: border-color 0.3s;
+}
+.Web-Development-Banner{
+  background-image: url(Images/Web\ Development.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Building-Services{
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+.Technologies-Color{
+  background-color: #555555;
+}
+.Technologies-handing {
+  padding-top: 80px;
+padding-bottom: 80px;
+}
+.Technologies-handing h1{
+  color: #FDFDFD;
+  font-family: "Montserrat";
+font-size: 40px;
+font-weight: 600;
+
+
+
+}
+.markGrup1 {
+  position: absolute;
+  right: 700px;
+}
+
+.markGrup2 {
+  position: absolute;
+  left: 700px;
+}
+
+.non-static  {
+  position: relative;
+}
+.Web-Design{
+   background-image: url(Images/Web\ Design.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.Why-Web-Design-para{
+  font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+line-height: 40px;
+}
+.toggle-panel{
+  background-color: #FFFFFF;
+  color: #444;
+
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: "Poppins";
+  font-size: 24px;
+  border: 1px solid #C0C0C0;
+  box-shadow: 1x 1x 1px 1px ;
+  font-weight: 500;
+  border-radius: 8px 8px 8px 8px;
+  text-align:justify;
+}
+.IMPORTANTS-heading{
+  font-family: "Montserrat";
+font-size: 40px;
+font-weight: 600;
+line-height: 60px;
+
+
+}
+.UIUX-DESIGNS{
+   color: #F8E643;
+}
+.Cost-Effective2{
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 400;
+
+
+  
+}
+.IMPORTANT{
+  padding-right: 80px;
+}
+.UIUXCost{
+ padding-top: 30px;
+ padding-bottom: 30px;
+ padding-right: 60px;
+}
+.Cost-UI{
+  padding-top: 30px;
+ padding-bottom: 30px;
+ padding-right: 60px; 
+
+
+}
+.user-experience{
+    background-image: url(Images/Ux.svg);
+    background-repeat: no-repeat;
+ 
+   padding-bottom: 30px;
+
+   padding-right: 30px;
+   
+}
+.user-interface{
+  background-image: url(Images/Ui.svg);
+  background-repeat: no-repeat;
+
+
+ padding-bottom: 30px;
+ padding-right: 30px;
+
+}
+.UIUX-DESIGNS-Marketing{
+background-color: #555555;
+color: #FFFFFF;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.course-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -15px;
+}
+
+.course-col {
+  flex: 0 0 20%; /* Adjust as needed based on your design */
+  padding: 0 15px;
+}
+
+.course img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Hotel-Booking-Engine-Banner{
+  background-image: url(Images/Hotel\ Booking\ Engine.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Booking-Engine-Banner{
+  background-image: url(Images/Booking\ Engine\ !.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.booking-heading-flex button{
+  margin-top: 40px;
+  padding: 10px;
+   border: 0px;
+  background-color: #111111;
+  border-radius: 12px;
+}
+.booking-heading-flex button a{
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  color: #F8E643;
+
+
+  
+}
+
+.booking-heading-flex h1{
+  font-family: "Montserrat";
+font-size: 40px;
+font-weight: 600;
+}
+.booking-heading-flex{
+  margin-top: 70px;
+}
+.Booking-Engine-heading{
+  padding-top: 100px;
+}
+.Booking-Engine-heading p{
+  font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+padding: 10px;
+line-height: 40px;
+
+
+}
+.Booking-Engine-heading h2{
+
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 600;
+  padding: 10px;
+  line-height: 40px;
+}
+
+
+.reservations{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.Benefits-Booking{
+  background: #555555;
+  border-radius: 20px;
+  padding-bottom: 80px;
+  margin-bottom: 80PX;
+}
+.Benefits-Booking{
+padding: 50px;
+
+}
+.customized{
+  font-family: "Montserrat";
+font-size: 40px;
+font-weight: 600;
+color: #F8E643;
+}
+.relationships {
+  font-family: "Poppins";
+font-size: 20px;
+font-weight: 400;
+padding: 20px;
+
+}
+.orders{
+  color: #F8E643;
+  ;
+}
+.relationships p{
+  color: #FDFDFD;
+
+}
+.key-Features{
+  background: #555555;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  padding: 60px;
+  margin-top: 100px;
+}
+.Enquire-banner{
+  background-image: url(Images/Booking\ Engine\ !.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.Freename{
+  padding: 5px;
+  border-radius: 12px;
+  background-color: #111111;
+
+  border: 0;
+}
+.Freename a{
+  color: #F8E643;
+  font-family: "Poppins";
+font-size: 16px;
+font-weight: 500;
+
+text-align: center;
+
+}
+.booking-own-engine{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.have-heading{
+  font-family: "Montserrat";
+font-size: 40px;
+font-weight: 600;
+line-height: 48px;
+
+
+}
+.Reservation-Office{
+  background-image: url(Images/Reservation\ Office.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Branding-banner{
+  background-image: url(Images/Branding-1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Unique-Strategies h5{
+  font-size: 24px;
+  font-family: "Poppins";
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+
+
+}
+.career-section {
+  position: relative;
+ /* Adjust height as needed */
+}
+
+.career-img {
+  position: absolute;
+}
+
+.career-img.img-1 {
+  top: 100%;
+  left:-10%;
+ 
+}
+
+.career-img.img-2 {
+  top: 100%;
+  right: -9%;
+   
+}
+.Computer-back{
+  background-image: url(/Asstes/Images/HeadImg/Desktop\ -\ 40.svg);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 40px;
+
+}
+.key-feature h3{
+  font-family: "Poppins";
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+
+ 
+  
+}
+.key-feature p{
+  font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 20px;
+
+}
+
+  
+
+
+
+.key-fea{
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 600;
+
+ 
+  letter-spacing: 0.02em;
+  
+
+
+  
+}
+.Free-Demo h4{
+  font-family: "Poppins";
+font-size: 28px;
+font-weight: 400;
+  color: #FFFFFF;
+
+
+
+
+}
+.Free-Demo button {
+  background: #FFC300;
+   border: 0px;
+   padding: 5px;
+   border-radius: 4px;
+  color: #111111;
+  margin: 10px auto;
+
+
+}

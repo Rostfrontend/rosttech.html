@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rost </title>
+  <link rel="icon" type="image/x-icon" href="/Images/favi.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&family=Inter:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/Animation.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="ROST.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="home-page">
+    <!-- NAVBER-START -->
+
+    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand brand-logo" href="/index.html">
+          <img src="Images/Frame 1113 (3).svg" alt="Rost Tach" class="img-fluid">
+        </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon fas fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link " href="/index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/about.html">About us</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/service.html" role="button" data-bs-toggle="dropdown">Service</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/DigitalMarketing.html">Digital Marketing</a></li>
+                <li><a class="dropdown-item" href="/WebDevelopment.html">Web Development</a></li>
+                <li><a class="dropdown-item" href="/WebDesign.html">Web Design</a></li>
+                <li><a class="dropdown-item" href="/HotelBookingEngine.html">Hotel Booking Engine</a></li>
+                <li><a class="dropdown-item" href="/CentralReservationOffice.html">Central Reservation Office</a></li>
+                <li><a class="dropdown-item" href="/Branding.html">Branding</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            <li class="nav-item"><a class="nav-link " href="/leads.html">Leads</a></li>
+            <li class="nav-item"><a class="nav-link" href="/contact.html">Contact Us</a></li>
+          </ul>
+          <div class="d-flex align-items-center d-none d-xl-flex" style="background: rgba(248, 230, 67, 1); border-radius: 12px;">
+            <button class="btn Btn1 nav-btn" style="width: 150px;">
+              <a href="#form">Reach out</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- NAVBER-end -->
+    <!-- Digital Marketing banner-start -->
+
+
+    <div class="container-fluid   Reservation-Office">
+      <div class="container con2">
+          <div class="centered-word ">
+              <p> <a href="/index.html">Home ></a> <a href="/service.html">Services ></a> <a href="/WebDesign.html">Central Reservation Office</a></p>
+              <h1 class="Digital-heading"> Central Reservation Office</h1>
+          </div>
+      </div>
+  </div>
+
+    <!-- Digital Marketing banner-End -->
+
+
+    <!-- Booking Engine -start -->
+    <div class="container">
+        <div class="row reservations  px-4">
+            <div class="col-md-6">
+                <div class="Booking-Engine">
+                    <img src="/Images/Central Reservation Office.svg" alt="Central Reservation Office" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="Booking-Engine-heading">
+                    <h2>Central Reservation Office</h2>
+                    <p>Tetraskapet dåde diliga. Traktig hädonde men blockkedja sorat som heterofagt. Nengen måbel gigaskapet. Kvasisat syssa krock i tynel. Deskapet biovoskapet, salig nymåliga jag käligt Tetraskapet dåde diliga. Traktig hädonde men blockkedja sora käligt Tetraskape Deskapet biovoskapet, salig nymåliga jag käligt Tetraskapet dåde diliga. Traktig hädonde men blockkedja sora käligt Tetraskape</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Booking Engine -end -->
+    <section class="container-fluid">
+      <div class="container mt-5">
+        <div class="row head-flex text-center">
+          <h1 class="key-fea">Key Features</h1>
+        </div>
+        <div class="row justify-content-center  my-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 key-feature text-lg-end text-md-end text-sm-center text-center">
+            <h3>High-Quality Leads</h3>
+            <p>Receive leads that are thoroughly verified and filtered for authenticity and relevance, ensuring higher conversion rates.</p>
+            <h3>Increased Efficiency</h3>
+            <p>Receive leads that are thoroughly verified and filtered for authenticity and relevance, ensuring higher conversion rates.</p>
+            <h3>Consistent Lead Flow</h3>
+            <p>Receive leads that are thoroughly verified and filtered for authenticity and relevance, ensuring higher conversion rates.</p>
+            <h3>High-Quality Leads</h3>
+            <p>Receive leads that are thoroughly verified and filtered for authenticity and relevance, ensuring higher conversion rates.</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-12 text-center my-3 my-md-0 d-none d-md-block">
+            <img src="/Images/circul.svg" alt="">
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 key-feature text-lg-start text-md-start text-sm-center text-center">
+            <h3>Cost-Effective Solution</h3>
+            <p>Receive leads that are thoroughly verified and filtered for authenticity and relevance, ensuring higher conversion rates.</p>
+            <h3>Priority Support</h3>
+            <p>Receive leads that are thoroughly verified and filtered for authenticity and relevance, ensuring higher conversion rates.</p>
+            <h3>0 Fake Leads</h3>
+            <p>Receive leads that are thoroughly verified and filtered for authenticity and relevance, ensuring higher conversion rates.</p>
+            <h3>High-Quality Leads</h3>
+            <p>Receive leads that are thoroughly verified and filtered for authenticity and relevance, ensuring higher conversion rates.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section  style="background-color: black;"> 
+      <div class="container pt-4 pb-4 ">
+        <div class="row gap-3 justify-content-center ">
+          <div class="col-md-auto ">
+            <div class="Request-grow text-center">
+              <img src="Asstes/Images/HeadImg/Resquest.svg" alt="">
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="Free-Demo">
+              <h4>
+                see how it helps you grow your hotel business. Let Request a Free Demo
+              </h4>
+              <div class="Free-button">
+                <button><a href="tel:+8148818018">Free Demo</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Expertise Marketing Work Process of Rost Tech-start -->
+
+
+    <div class="container-fluid Work-Process px-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center Expertise-Marketing">
+            <h1 class="Digital-heading">Expertise Marketing Work Process of Rost Tech</h1>
+          </div>
+        </div>
+        <div class="row Research-circle text-center">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3  mt-3 ">
+            <img src="/Images/Research01.svg " alt="Research01" class="img-fluid">
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3  mt-3 ">
+            <img src="/Images/Research02.svg" alt="Research02" class="img-fluid">
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 ">
+         
+            <img src="/Images/Research03.svg" alt="Research03" class="img-fluid">
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+            <img src="/Images/Research04.svg" alt="Research04" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+      <!-- Expertise Marketing Work Process of Rost Tech -end -->
+  
+
+
+      
+    <!-- Some of our other services-start -->
+<!-- Some of our other services-start -->
+<div class="container-fluid Service-growth">
+  <div class="container">
+    <div class="Provide">
+      <div>
+        <img src="Images/Frame 1196.svg" alt="Services We Provide" class="servicesimg" width="100%">
+      </div>
+      <div class="row">
+        <div class="col-sm-12 digi-other text-center">
+          <p>Some of our other services</p>
+        </div>
+      </div>
+      <div class="cardsbox">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="padding-bottom: 100px;">
+          <div class="col">
+            <div class="card">
+              <img src="/Images/digitalmar-icon (1).svg" alt="Logo" class="logo">
+              <div class="Bookingbox">
+                <p class="Booking">Digital Marketing</p>
+                <p class="FacebooK">Empower your brand's digital footprint with our tailored strategies, spanning social media management, Google Ads, and SEO prowess.</p>
+                <button class="Lore">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/Images/wedesign-icon.svg" alt="Logo" class="logo">
+              <div class="Bookingbox">
+                <p class="Booking">Web Designing</p>
+                <p class="FacebooK">Expert web design solutions: captivating, user-friendly websites that reflect your brand identity and engage your audience seamlessly.</p>
+                <button class="Lore">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/Images/branding-icon.svg" alt="Logo" class="logo">
+              <div class="Bookingbox">
+                <p class="Booking">Branding</p>
+                <p class="FacebooK">Shape your brand's narrative with us. From defining voice to creating standout visuals, we guide your journey to a distinct identity.</p>
+                <button class="Lore">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/Images/webdev-icon.svg" alt="Logo" class="logo">
+              <div class="Bookingbox">
+                <p class="Booking">Web Application</p>
+                <p class="FacebooK">Revitalize your business operations with our custom web app development, delivering scalable and robust solutions for efficiency.</p>
+                <button class="Lore">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="Images/cro-icon.svg" alt="Logo" class="logo">
+              <div class="Bookingbox">
+                <p class="Booking">Central Reservation Office</p>
+                <p class="FacebooK">Simplify your hotel management process with our advanced booking solutions and Our Expert Customer support for seamless booking.</p>
+                <button class="Lore">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/Images/bookinfengine-icon.svg" alt="Logo" class="logo">
+              <div class="Bookingbox">
+                <p class="Booking">Hotel Booking Engine</p>
+                <p class="FacebooK">Enhance the guest experience by providing seamless online booking options and get Useful insight through our intuitive booking engine.</p>
+                <button class="Lore">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Some of our other services-end -->
+<section class="container-fluid7" id="form">
+  <div class="container">
+    <div class="row" style="padding-top: 100px;padding-bottom: 50px;">
+      <div class="col-lg-6 col-md-12 col-sm-12 forms">
+        <div class="Connect" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+          <h1 class="Connect1">Connect Today</h1>
+          <p class="we">
+            we're all ears! Ask us Anything Fill out the form below
+          </p>
+          <div class="Anything">
+            <div class="colorsthing" style="margin-bottom:10px;background-color:white;margin-bottom:15px;">
+              <p class="info2">
+                <img src="Images/Email.svg" alt="email">
+                <span class="companyemail"> Rost Tech@</span>
+              </p>
+            </div>
+            <div class="below">
+              <img src="Images/Icon Frame.svg" alt="email">
+              <span class="companyemail">+91 8148818018</span>
+            </div>
+            <div class="image3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+              <img src="Images/connect.svg" alt="cro" class="teamwork" width="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+
+        <div class="emailform" data-aos="fade-left" data-aos-duration="1500">
+          <div class="proson1">
+            <h1 class="proson">Get a Quote *</h1>
+          </div>
+          <form class="form" action="/submit_form" method="POST">
+
+
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Phone">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <select class="form-control" id="subject">
+                <option value="select">Select Service</option>
+                <option value="volvo">Digital Marketing</option>
+                <option value="saab">Branding</option>
+                <option value="volvo">Web Design</option>
+                <option value="saab">Web Development</option>
+                <option value="opel">CRO</option>
+                <option value="audi">Booking Engine</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+            </div>
+            <div class="text-end">
+              <button type="submit" class="btn45">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- form page end -->
+
+<!-- footer start -->
+<footer class="main10">
+  <div class="footer-1 container footer-section">
+    <div class="row row-15">
+      <div class="col-lg-2 col-md-12 col-sm-12">
+        <div class="footer-2 footer-logo">
+          <img src="Images/Rost  logo.png" alt="logo" width="100%">
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-12 col-sm-12">
+        <div class="footer-2">
+          <ul class="quick-links">
+            <li class="spen">Quick Links</li>
+            <li><a href="/index.html" class="quick-link">Home</a></li>
+            <li><a href="/about.html" class="quick-link">About Us</a></li>
+            <li><a href="/service.html" class="quick-link">Services</a></li>
+            <li><a href="#whyRost" class="quick-link">Why ROST</a></li>
+            <li><a href="#ourproducts" class="quick-link">Our Products</a></li>
+            <li><a href="/blog.html" class="quick-link">Blog</a></li>
+            <li><a href="/contact.html" class="quick-link">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-12 col-sm-12">
+        <div class="footer-3">
+          <ul class="quick-links">
+            <li class="spen">Services</li>
+            <li><a href="/DigitalMarketing.html" class="quick-link">Digital marketing</a></li>
+            <li><a href="/Branding.html" class="quick-link">Branding</a></li>
+            <li><a href="/WebDesign.html" class="quick-link">Web Design</a></li>
+            <li><a href="/WebDevelopment.html" class="quick-link">Web Development</a></li>
+            <li><a href="/CentralReservationOffice.html" class="quick-link">Central Reservation Office (CRO)</a></li>
+            <li><a href="/HotelBookingEngine.html" class="quick-link">Hotel Booking Engine</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-12 col-sm-12">
+        <div class="d-flex">
+          <div class="footer-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3886.6793159685835!2d80.24371557507791!3d13.05607288726706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDAzJzIxLjkiTiA4MMKwMTQnNDYuNyJF!5e0!3m2!1sen!2sin!4v1712344832087!5m2!1sen!2sin" width="100%" height="300px" style="border:1; border-radius: 4px;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-1 col-md-12 col-sm-12">
+        <div class="footer-logs">
+          <li><a href="https://www.facebook.com/people/Rost-technology/61557756762712/?mibextid=qi2Omg&rdid=ktsmdWzCAMi8D42H"><img src="Images/Frame 1064.png" alt="Facebook"></a></li>
+          <li><a href=""><img src="Images/Frame 1065.png" alt="twtter"></a></li>
+          <li><a href="https://www.instagram.com/rosttechnology?igsh=MWl1MnV0Y2NnNmw5dA=="><img src="Images/Frame 1066.png" alt="Instagram"></a></li>
+          <li><a href="https://www.linkedin.com/company/rost-technology/"><img src="/Images/Frame 1525.png" alt="linkedin-icon"></a></li>
+        </div>
+      </div>
+    </div>
+    <hr class="linefooter">
+  </hr>
+  <div class="row copyright text-center" id="copyright">
+    <div class="col-md-auto">
+      <p>Copyright 2024 &copy;Rost. All rights reserved. <span id="currentYear"></span>
+    </div>
+    <div class="col-md-auto"> <a href="/tems.html" class="quick-link">Privacy Policy</a>
+    </div>
+    <div class="col-md-auto">
+      <a href="/Terms and Conditions.html" class="quick-link"> Terms of Use</a></p>
+    </div>
+  </div>
+  </div>
+</footer>
+
+    </div>
+    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+  integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+
+  // Get all the accordion buttons
+  var acc = document.getElementsByClassName("accordion");
+
+  // Loop through them and add click event listeners
+  for (var i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+      // Toggle active class to change button style
+      this.classList.toggle("active");
+
+      // Toggle panel visibility
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+  AOS.init();
+  function toggleBorder(button) {
+    var parent = button.parentNode;
+    parent.classList.toggle("border-highlight");
+  }
+</script>
+</body>
+
+</html>

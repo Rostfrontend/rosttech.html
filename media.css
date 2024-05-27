@@ -1,0 +1,511 @@
+/* //home page css starts */
+@media only screen and (max-width: 430px) {
+    li {
+        font-size: 14px;
+    }
+    .Benefits-Booking h2{
+        font-size: 20px;
+    }
+    .relationships p{
+        font-size: 14px;
+    }
+    .relationships p{
+        font-size: 14px;
+    }
+    .key-Features h2{
+        font-size: 12px;
+    }
+    .Technologies-Color h1{
+        font-size: 20px;
+    }
+    .Components-flex h1{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    
+
+    a.quick-link {
+        font-size: 14px;
+    }
+    .tech-grouth h1{
+        font-size: 20px;
+        max-width: 100%;
+        text-align: center;
+        /* text-align: center; */
+    }
+
+    .brand-logo {
+        width: 100px;
+    }
+
+    .footer-logo {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+    .servicesimg{
+       padding-top: 40px;
+    }
+    .Provide h1{
+        font-size: 20px;
+    }
+    .tech-grouth h1{
+        font-size: 20px;
+        max-width: 100%;
+        text-align: center;
+        /* text-align: center; */
+    }
+    
+
+    .emailinput {
+        width: 100%;
+        font-size: 12px;
+
+    }
+    .digi-other p{
+        font-size: 20px;
+    }
+
+    .dobltbox {
+        max-width: 100%;
+    }
+
+    .Started {
+        /* width: 50%; */
+        white-space: nowrap;
+        font-size: 14px;
+    }
+
+    .business-newheight .stay {
+        display: none;
+    }
+
+    .change {
+        height: 250px;
+    }
+
+    form input,
+    form textarea,
+    form select {
+        font-size: 14px !important;
+    }
+
+    .machinery {
+        width: 170px;
+        margin: auto;
+    }
+
+    .line4 {
+        border-left: 1px solid black;
+        height: 200px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        top: 35%;
+        transform: rotate(90deg);
+        width: fit-content;
+    }
+
+    .btn45 {
+        margin-top: 20px;
+        /* position: relative; */
+        width: 100px;
+        /* left: 476px; */
+        height: 40px;
+        padding: 4px;
+        gap: 10px;
+        border-radius: 4px;
+        background-color: #000;
+        color: #F8E643;
+        font-family: "Poppins";
+        font-size: 14px;
+        opacity: 0px;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+    .business-growth {
+        font-size: 20px;
+     
+    }
+
+    .country-code-phonenumber {
+        /* display: ; */
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+
+
+    .emailinput {
+        width: 60%;
+    }
+
+    .line4 {
+        border-left: 1px solid black;
+        position: absolute;
+        height: 370px !important;
+        left: 50% !important;
+        top: 0% !important;
+        right: 50% !important;
+        margin-left: auto;
+        margin-right: auto;
+        transform: rotate(90deg);
+        width: fit-content;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-section {
+        padding: 50px 0;
+    }
+
+    .line4 {
+        border-left: 3px solid black;
+        height: 270px;
+        position: absolute;
+        left: 95%;
+        /* top: 25%; */
+    }
+
+    .machinery {
+        width: 200px;
+        margin: auto;
+    }
+
+
+    .btn45 {
+        margin-top: 20px;
+        /* position: relative; */
+        width: 137px;
+        /* left: 476px; */
+        /* height: 48px; */
+        /* padding: 4px; */
+        gap: 10px;
+        border-radius: 4px;
+        background-color: #000;
+        color: #F8E643;
+        font-family: "Poppins";
+        font-size: 24px;
+        /* opacity: 0px; */
+    }
+
+
+    .header-section .navbar-section {
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+}
+
+@media only screen and (min-width: 435px) and (max-width: 768px) {
+    .emailform {
+        margin-top: 40px;
+    }
+
+    .navbar-nav {
+        position: relative;
+        right: 300px;
+        display: flex;
+        justify-content: start;
+    }
+
+    .dobltbox {
+        max-width: 100%;
+    }
+
+    .wrapper1 {
+        display: block;
+        max-width: 100%;
+
+    }
+
+    .whyrost {
+        position: relative;
+        bottom: 300px;
+
+    }
+
+    .Analytical {
+        position: relative;
+        top: 150px;
+        font-size: 22px;
+
+    }
+
+    .Creative {
+        position: relative;
+        bottom: 300px;
+        left: 6%;
+        font-size: 22px;
+    }
+
+    .Seamless {
+        position: relative;
+        bottom: 270px;
+        font-size: 22px;
+    }
+
+    .Comprehensive {
+
+        position: relative;
+        left: 5%;
+        bottom: 210px;
+        font-size: 22px;
+    }
+
+    .Dedicated {
+        position: relative;
+        bottom: 120px;
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (min-width: 900px) {
+    .Provide img {
+        padding-top: 40px;
+    }
+
+    .corrugatedpagra {
+        font-family: "Poppins";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        padding-left: 20px;
+        text-align: start;
+
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .course-col {
+        flex: 0 0 33.33%; /* Adjust for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .course-col {
+        flex: 0 0 50%; /* Adjust for even smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .course-col {
+        flex: 0 0 100%; /* Full width on very small screens */
+    }
+  }
+  @media (max-width: 768px) {
+    .UIUX-DESIGNS-Marketing {
+        padding: 0;
+    }
+    .UIUX-DESIGNS-Marketing .col {
+        width: 100%;
+        margin: 0;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .UIUX-DESIGNS-Marketing .IMPORTANTS-heading {
+        font-size: 24px;
+    }
+    .UIUX-DESIGNS-Marketing .Cost-Effective2 p {
+        font-size: 14px;
+    }
+  
+  }
+  
+
+  /* Responsive adjustments */
+  @media (max-width: 1200px) {
+    .Analytical, .Creative, .Seamless, .Comprehensive, .Dedicated {
+      flex: 1 1 calc(33.333% - 40px);
+    }
+  }
+
+  @media (max-width: 992px) {
+    .Analytical, .Creative, .Seamless, .Comprehensive, .Dedicated {
+      flex: 1 1 calc(50% - 40px);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .Analytical, .Creative, .Seamless, .Comprehensive, .Dedicated {
+      flex: 1 1 100%;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .Analytical1, .creative1, .seamless1, .Comprehensive1, .Dedicated1 {
+      font-size: 1.5em;
+    }
+ 
+
+    .Insight1, .Solutions2, .Launch1, .Branding1, .Support1 {
+      font-size: 1.2em;
+    }
+  }
+  @media (max-width: 767px) {
+    .Research-circle img {
+      margin-bottom: 15px;
+      
+    }
+  }
+  .Work-Process {
+    padding: 20px 0;
+  }
+  
+  .Expertise-Marketing {
+    margin-bottom: 20px;
+  }
+  
+  .Research-circle img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    
+  }
+/* Default font sizes */
+h1 {
+    font-size: 2.5em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.75em;
+}
+h4 {
+    font-size: 1.5em;
+}
+h5 {
+    font-size: 1.25em;
+}
+h6 {
+    font-size: 1em;
+}
+p {
+    font-size: 1em; /* Default paragraph font size */
+}
+
+/* Small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.75em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    h4 {
+        font-size: 1.25em;
+    }
+    h5 {
+        font-size: 1em;
+    }
+    h6 {
+        font-size: 0.875em;
+    }
+    p {
+        font-size: 0.875em; /* Smaller paragraph font size for small devices */
+    }
+}
+
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.25em;
+    }
+    h2 {
+        font-size: 1.875em;
+    }
+    h3 {
+        font-size: 1.625em;
+    }
+    h4 {
+        font-size: 1.375em;
+    }
+    h5 {
+        font-size: 1.125em;
+    }
+    h6 {
+        font-size: 0.9375em;
+    }
+    p {
+        font-size: 0.9375em; /* Slightly larger than on small devices */
+    }
+
+
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .wrapper1{
+        max-width: 100%;
+    }
+    .Analytical{
+        max-width: 100%;
+    }
+   
+    .Insight{
+        max-width: 100%;
+    }
+    .wrapper1{
+        max-width: 100%;
+        grid: 10px;
+        font-size: 12px;
+        }
+    
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 3.5em;
+    }
+    h2 {
+        font-size: 3em;
+    }
+    h3 {
+        font-size: 2.75em;
+    }
+    h4 {
+        font-size: 2.5em;
+    }
+    h5 {
+        font-size: 2.25em;
+    }
+    h6 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.125em; /* Slightly larger for extra large devices */
+    }
+}
+@media (min-width: 600px) {
+    h1.vision {
+        font-size: 20px;
+    }
+}
+
+
+
+/* Styles for desktops and larger devices */
+
